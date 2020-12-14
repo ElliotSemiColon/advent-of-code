@@ -35,7 +35,6 @@ passports.forEach(passport => {
     });
 
     if(validate(identifiers)){
-        console.log("good shit home slice !")
         valids++;
     }else{console.log(`bad passport ${identifiers}`)}
 
@@ -50,8 +49,8 @@ function validate(tempPassport){
             return false;
         }
     }
-    return true;
     console.log(`good passport`);
+    return true;
     /*console.log(tempPassport, validPassport)
     if((tempPassport == validPassport.slice(0,8))||(tempPassport == validPassport)){valids++;}
     tempPassport = [];*/
