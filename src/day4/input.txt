@@ -1101,4 +1101,4 @@ ecl:hzl hgt:169cm cid:340
 eyr:2023
 iyr:2017 byr:1994
 
-//artifical addition to get the damn program to damn work!! 
+/
