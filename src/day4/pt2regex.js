@@ -54,7 +54,7 @@ passports.forEach(passport =>{
             validFields++;
         }
         let eyr = values[fields.findIndex((elem => elem == 'eyr'))];
-        if(eyr >= 2020 && iyr <= 2030){validFields++;} 
+        if(eyr >= 2020 && eyr <= 2030){validFields++;} 
         let hgt = String(values[fields.findIndex((elem => elem == 'hgt'))]);
         //console.log(hgt);
         if((hgt.match(cm) >= 150 && hgt.match(cm) <= 193)||(hgt.match(inches) >= 59 && hgt.match(inches) <= 76)){
